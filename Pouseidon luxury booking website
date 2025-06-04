@@ -1,0 +1,29 @@
+import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button"; import { Input } from "@/components/ui/input"; import { useState } from "react"; import { motion } from "framer-motion";
+
+export default function BookingPage() { const [from, setFrom] = useState(""); const [to, setTo] = useState(""); const [date, setDate] = useState("");
+
+const handleBooking = () => { alert(Booking from ${from} to ${to} on ${date}); // Replace with actual booking logic or backend API call };
+
+return ( <div className="min-h-screen bg-gradient-to-br from-blue-900 to-black text-white p-6"> <motion.h1 className="text-4xl font-bold text-center mb-10" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} > Pouseidon Luxury - Book Your Trip </motion.h1>
+
+<div className="max-w-xl mx-auto">
+    <Card className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-xl">
+      <CardContent className="space-y-4">
+        <Input
+          placeholder="From (e.g. Dar es Salaam)"
+          value={from}
+          onChange={(e) => setFrom(e.target.value)}
+        />
+        <Input
+          placeholder="To (e.g. Mbeya)"
+          value={to}
+          onChange={(e) => setTo(e.target.value)}
+        />
+        <Input
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+        />
+        <Button
+          className="w-full bg-blue-600 hover:bg-blue
+
