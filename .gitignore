@@ -1,0 +1,17 @@
+# Logs and runtime data
+var/*
+!var/.gitkeep
+*.log
+*.log.*
+*.pid
+
+# Node / JS
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
