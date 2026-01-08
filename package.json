@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pouseidon-949/www.pouseidonluxury.co..git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pouseidon-949/www.pouseidonluxury.co./issues"
+  },
+  "homepage": "https://github.com/Pouseidon-949/www.pouseidonluxury.co.#readme",
+  "dependencies": {
+    "@types/node": "^25.0.3",
+    "dotenv": "^17.2.3",
+    "tronweb": "^6.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
